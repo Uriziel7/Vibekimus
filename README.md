@@ -14,6 +14,24 @@ computer. Nothing is uploaded, nothing is tracked.
 > affiliated with or endorsed by the original author. See
 > [What is different from Makimus-AI](#what-is-different-from-makimus-ai) and [Origin and license](#origin-and-license).
 
+
+<p align="center">
+  <img src="media/demo.webp" alt="Vibekimus: searching photos by description">
+</p>
+
+# A Human's note
+Vibekimus, as the name suggests, is developed by leveraging LLMs heavily (Claude Code - Opus 5.5 and Fable 5.2, to be exact).
+
+This fork of Makimus-AI (created by Ubaida M Yusuf) started as an improved version for my personal use and needs, then started growing in scope, and now I think it could be useful for more people.
+
+Currently it’s supported on Windows 11 and Nvidia hardware (RTX 20+, with the possibility of running on GTX 16 series but it hasn’t been tested), as that’s what I personally use.
+Linux + Nvidia is next in line and high priority. After that, I have an idea of using ZLUDA to support AMD hardware, but that needs to be investigated further at a later date.
+No plans for Intel Arc currently.
+
+I tried to guide Claude throughout this project the best I could, but for sure AI bloat in the code is a given and there’s a lot to be done on the human code review side.
+
+The rest of the readme was written by Claude. I will rewrite it in my spare time so it looks better.
+
 ---
 
 ## Contents
