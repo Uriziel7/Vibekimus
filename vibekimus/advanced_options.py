@@ -144,7 +144,7 @@ OPTIONS = (
                   "Indexing never uses these cores (the last ones) and runs below normal priority, so the computer "
                   "stays responsive. At least one core is always used.", 0, 64),
     SwitchOption("OCR_ON_GPU", TEXT, "Read text on the graphics card",
-                 "About twice as fast as the CPU, the same text (DirectML, any DirectX 12 card)."),
+                 "About twice as fast as the CPU, the same text."),
     IntegerOption("OCR_WORKERS", TEXT, "Pictures read at the same time by each process",
                   "Each shares the CPU with the others. The number of processes follows the CPU cores and "
                   "the free graphics memory.", 1, 16),
