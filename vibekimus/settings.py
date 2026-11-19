@@ -90,7 +90,7 @@ OCR_VRAM_CHECK_SECONDS = 2.0
 # A process is added back no sooner than this after the last change (a new one takes a
 # while to reach its full graphics memory).
 OCR_GROW_WAIT_SECONDS = 30.0
-# Read text on the graphics card (DirectML, any DirectX 12 card) when ONNX Runtime can:
+# Read text on the graphics card (DirectML) when ONNX Runtime can:
 # about twice as fast as the CPU, the same text. False = always the CPU.
 OCR_ON_GPU = True
 # Searching by text: a file whose picture shows all typed words gets this many standard

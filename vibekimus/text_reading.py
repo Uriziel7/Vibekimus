@@ -1,6 +1,6 @@
 """Reading the text on pictures (OCR) with PP-OCRv6 small (PaddleOCR, Apache 2.0),
-run by RapidOCR on ONNX Runtime: on the graphics card through DirectML (Windows, any
-DirectX 12 card) when settings.OCR_ON_GPU allows it, else on the CPU.
+run by RapidOCR on ONNX Runtime: on the graphics card through DirectML when
+settings.OCR_ON_GPU allows it, else on the CPU.
 
 DirectML runs one model at a time in a process: two engines running at once crash it. So
 the engines' runs on the graphics card take turns (one lock); what each engine does on the
