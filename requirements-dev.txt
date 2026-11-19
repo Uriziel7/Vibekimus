@@ -1,0 +1,3 @@
+# For developing Vibekimus only: not needed to run it, and not part of the .exe.
+# venv\Scripts\python -m pip install -r requirements-dev.txt
+pytest==9.2.0

@@ -1,0 +1,41 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+Pillow==12.0.0
+numpy==2.2.6
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+open_clip_torch==3.2.0
+rawpy==0.26.1
+opencv-python==4.13.0.92
+# PyAV: a video frame from files whose frames OpenCV sees without time stamps (many .wmv) —
+# OpenCV decodes those from the first frame at every seek.
+av==19.0.2
+Send2Trash==2.1.0
+tkinterdnd2==0.4.3
+
+# Needed by the SigLIP 2 text tokenizer (open_clip loads it through transformers).
+# transformers 4.x on purpose: open_clip 3.2.0 calls an API that 5.x no longer has.
+transformers==4.57.6
+tokenizers==0.22.2
+sentencepiece==0.2.1
+
+# Pinned so that an install today resolves to the same versions every time
+# (open_clip leaves these two open).
+timm==1.0.25
+huggingface-hub==0.36.2
+
+# Reading text on pictures (OCR, PP-OCRv6 small). rapidocr itself is installed from
+# requirements-ocr.txt with --no-deps: it asks for opencv-python-headless, a second
+# OpenCV that would overwrite opencv-python above. These are the rest of what it needs.
+# ONNX Runtime with DirectML: reads text on the graphics card and on the CPU.
+onnxruntime-directml==1.24.4; sys_platform == "win32"
+onnxruntime==1.24.4; sys_platform != "win32"
+omegaconf==2.4.0
+pyclipper==1.4.0
+shapely==2.2.0
+colorlog==6.12.0
+PyYAML
+requests
+tqdm
+
+# Index encryption (AES-GCM, scrypt for the key's password).
+cryptography==50.0.2

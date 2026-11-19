@@ -1,0 +1,45 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+.env
+
+# The user's own notes and plans (e.g. the refactoring plan) and the assistant's working notes — never commit
+docs/
+CLAUDE.md
+# Source pictures of the icon (the program uses assets/icon.png)
+/icon.jpg
+/vibekimus.png
+
+# Vibekimus data of this computer (private: names and paths of the user's files) — never commit.
+# Run from the source, the program keeps it next to the code.
+index_all_drives/
+indexes/
+models/
+/runtime/
+/huggingface/
+vibekimus_log.txt
+vibekimus_preferences.json
+vibekimus_console*.txt
+vibekimus_key.json
+vibekimus_known_indexes.json
+vibekimus_last_index.json
+vibekimus_skipped_*.txt
+*.npz
+*.npz.part*
+.clip_exclusions.json
+.vibekimus_library.json
+.vibekimus_ocr_text
+*.tmp
+*.part
+
+# Build output
+build/
+dist/
+assets/icon.ico

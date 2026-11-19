@@ -1,0 +1,76 @@
+{
+ "siglip2-so400m": {
+  "repos": [
+   {
+    "repo": "timm/ViT-SO400M-16-SigLIP2-384",
+    "revision": "fec784dabb3081a5f101fc74eefaf9d1ed08237b",
+    "files": [
+     {
+      "path": "open_clip_model.safetensors",
+      "size": 4544235176,
+      "sha256": "8ceec00df3c462d155d172933339cd9178a86bfab72f4458dbe84bd54f5ad026"
+     },
+     {
+      "path": "special_tokens_map.json",
+      "size": 327,
+      "sha256": "d4671afd8f9b1ccd170443bd5478c0cc40fdbddc9343034caf6984ffd388b2c4"
+     },
+     {
+      "path": "tokenizer.json",
+      "size": 34362885,
+      "sha256": "220c63d496e0c14e63eb656c91e0215e926202e4c74b1f089e09f1920d779b04"
+     },
+     {
+      "path": "tokenizer_config.json",
+      "size": 46382,
+      "sha256": "513e778583a9ac0b74ae47784216f9d654d5132eee62d777597f5e842701323c"
+     }
+    ]
+   }
+  ],
+  "download_bytes": 4578644770,
+  "disk_bytes": 2898378490,
+  "replaced_by_compact": {
+   "repo": "timm/ViT-SO400M-16-SigLIP2-384",
+   "path": "open_clip_model.safetensors"
+  }
+ },
+ "ocr": {
+  "repos": [
+   {
+    "repo": "PaddlePaddle/PP-OCRv6_small_det_onnx",
+    "revision": "28fe5895c24fd108c19eb3e8479f4ab385fbfc62",
+    "files": [
+     {
+      "path": "inference.onnx",
+      "size": 9880512,
+      "sha256": "d73e0058b7a8086bbd57f3d10b8bcd4ff95363f67e06e2762b5e814fe9c9410e"
+     },
+     {
+      "path": "inference.yml",
+      "size": 885,
+      "sha256": "193f435274bf9f0b5f71a929bbfbcf148282df7e633b34e7c373e8f44741b516"
+     }
+    ]
+   },
+   {
+    "repo": "PaddlePaddle/PP-OCRv6_small_rec_onnx",
+    "revision": "b8f84f0b80c529de40b4fbb3544b84fa7233a513",
+    "files": [
+     {
+      "path": "inference.onnx",
+      "size": 21159378,
+      "sha256": "5435fd747c9e0efe15a96d0b378d5bd157e9492ed8fd80edf08f30d02fa24634"
+     },
+     {
+      "path": "inference.yml",
+      "size": 150579,
+      "sha256": "ab078671bb49f06228eadccd34f1bb501e157f7a047095ffb943ba81512c77d1"
+     }
+    ]
+   }
+  ],
+  "download_bytes": 31191354,
+  "disk_bytes": 31191354
+ }
+}
